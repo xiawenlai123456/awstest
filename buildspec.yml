@@ -15,3 +15,7 @@ phases:
   post_build:
     commands:
       - echo "build over"
+  artifacts:
+    files:
+      - '**/*'
+    name: myweb-release
