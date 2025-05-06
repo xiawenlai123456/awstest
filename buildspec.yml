@@ -14,4 +14,4 @@ phases:
       - node -v
   post-build:
     commands:
-      - echo: "build over"
+      - echo "build over"
