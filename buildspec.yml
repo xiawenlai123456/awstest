@@ -1,0 +1,17 @@
+version: 0.2
+phases:
+  install:
+    runtime-version:
+      nodejs: 12
+    commands:
+      - echo "intall the runtime"
+  pre-build:
+    commands:
+      - echo "pre-build"
+  build:
+    commands:
+      - echo "start"
+      - node -v
+  post-build:
+    commands:
+      - echo: "build over"
