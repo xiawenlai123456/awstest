@@ -14,7 +14,7 @@ phases:
       - node -v
       - sh test.sh
       - echo "-------------------"
-      - echo $AWS_DEFAULT_REGION
+      - echo $KOMAWEB
       - echo "-------------------"
   post_build:
     commands:
