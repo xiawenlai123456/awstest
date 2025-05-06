@@ -5,13 +5,13 @@ phases:
       nodejs: 12
     commands:
       - echo "intall the runtime"
-  pre-build:
+  pre_build:
     commands:
       - echo "pre-build"
   build:
     commands:
       - echo "start"
       - node -v
-  post-build:
+  post_build:
     commands:
       - echo "build over"
