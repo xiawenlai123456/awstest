@@ -12,6 +12,7 @@ phases:
     commands:
       - echo "start"
       - node -v
+      - sh test.sh
   post_build:
     commands:
       - echo "build over"
