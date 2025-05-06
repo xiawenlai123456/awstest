@@ -13,6 +13,9 @@ phases:
       - echo "start"
       - node -v
       - sh test.sh
+      - echo "-------------------"
+      - echo $AWS_DEFAULT_REGION
+      - echo "-------------------"
   post_build:
     commands:
       - echo "build over"
