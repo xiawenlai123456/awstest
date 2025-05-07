@@ -21,5 +21,6 @@ phases:
       - echo "build over"
 artifacts:
   files:
-    - '**/*'
+    - 'appspec.yml'
+    - 'index.html'
   name: myweb-release
