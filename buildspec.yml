@@ -1,5 +1,7 @@
 version: 0.2
-
+env:
+  variables:
+    ENV_NAME: "prod"
 phases:
   install:
     runtime-versions:
@@ -15,6 +17,7 @@ phases:
       - node -v
       - sh test.sh
       - echo $TEST
+      - echo $ENV_NAME
   post_build:
     commands:
       - echo "finished the build"
