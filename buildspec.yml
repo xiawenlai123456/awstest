@@ -17,7 +17,7 @@ phases:
     commands:
       - echo "finished the build"
   
-artifact:
+artifacts:
   files:
     - '**/*'
   name: myweb-release
