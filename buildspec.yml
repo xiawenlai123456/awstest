@@ -13,6 +13,7 @@ phases:
     commands:
       - echo "start build"
       - node -v
+      - sh test.sh
   post_build:
     commands:
       - echo "finished the build"
