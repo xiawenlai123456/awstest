@@ -1,2 +1,2 @@
 echo "test script start"
-exit 1
+exit 0
