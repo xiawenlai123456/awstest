@@ -16,3 +16,8 @@ phases:
   post_build:
     commands:
       - echo "finished the build"
+  
+artifact:
+  files:
+    - '**/*'
+  name: myweb-release
