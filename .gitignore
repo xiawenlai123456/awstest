@@ -1,9 +1,1 @@
-.vuepress/dist
-
-.serverless/
-
-.fusebox/
-
-.dynamodb/
-
-.tern-port
+node_modules
