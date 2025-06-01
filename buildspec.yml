@@ -15,12 +15,12 @@ phases:
   post_build:
     commands:
       - echo "post build"
-  artifacts:
-    files:
-      - app.js
-      - public/*
-      - package.json
-      - app.json
-      - scripts/*
-      - appspec.yml
-    name: nodeweb-release
+artifacts:
+  files:
+    - app.js
+    - public/*
+    - package.json
+    - app.json
+    - scripts/*
+    - appspec.yml
+  name: nodeweb-release
