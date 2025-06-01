@@ -1,0 +1,26 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+      commands:
+        - echo "start"
+        - npm install
+  pre_build:
+    commands:
+      - echo "start"
+  build:
+    commands:
+      - echo "start build"
+  post_build:
+    commands:
+      - echo "post build"
+  artifacts:
+    files:
+      - app.js
+      - public/*
+      - package.json
+      - app.json
+      - scripts/*
+      - appspec.yml
+  name: nodeweb-release
